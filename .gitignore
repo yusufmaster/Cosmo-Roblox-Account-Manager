@@ -1,0 +1,21 @@
+# --- Sensitive: your encrypted account cookies/passwords (NEVER commit) ---
+accounts.dat
+settings.json
+
+# --- Build output ---
+build/
+dist/
+*.spec
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- OS / editor cruft ---
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
